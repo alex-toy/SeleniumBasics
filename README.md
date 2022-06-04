@@ -16,8 +16,8 @@ sudo apt-get install -y chromium-browser
 
 
 ## Steps
-- Run python **test.py**. This will take you to *http://automationpractice.com/index.php* 
 - modify **test.py** to use **Selenium** functionalities.
+- Run python **test.py**. This will take you to *http://automationpractice.com/index.php* 
 
 
 It is useful to understand how to use the css selector in the chrome console : 
