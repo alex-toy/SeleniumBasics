@@ -1,0 +1,19 @@
+################################################################
+#DEPLOYING LOCALLY :
+
+cd /path/to/app
+
+python3 -m venv venv
+
+source venv/bin/activate #mac
+.\venv\Scripts\activate #windows
+.\venv\Scripts\deactivate #windows
+
+pip install --upgrade pip 
+pip install -U selenium
+
+python test.py
+
+#In a web browser, we can visit the public IP address. Type "exit" to disconnect from the VM
+<yourmachine>.<local>.cloudapp.azurestack.contoso.com:5000
+
